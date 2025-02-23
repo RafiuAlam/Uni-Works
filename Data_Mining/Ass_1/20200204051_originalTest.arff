@@ -1,0 +1,20 @@
+@relation Employee_Bonus
+
+@attribute performance {poor, satisfactory, good, excellent}
+@attribute experience numeric
+@attribute satisfaction {low, medium, high}
+@attribute education {high_school, bachelors, masters, phd}
+@attribute age numeric
+@attribute department {sales, marketing, finance, engineering, HR}
+@attribute salary numeric
+@attribute bonus {yes, no}
+
+@data
+poor,1,low,high_school,23,HR,32000,no
+good,6,medium,masters,35,finance,50000,yes
+satisfactory,4,medium,bachelors,29,HR,36000,no
+excellent,10,high,masters,42,engineering,68000,yes
+poor,2,low,high_school,26,sales,29000,no
+good,8,medium,bachelors,30,marketing,48000,yes
+satisfactory,5,high,masters,37,finance,53000,no
+excellent,11,high,phd,44,engineering,70000,yes

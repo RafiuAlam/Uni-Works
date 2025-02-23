@@ -1,0 +1,50 @@
+@relation Employee_Bonus-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6
+
+@attribute performance {poor,satisfactory,good,excellent}
+@attribute experience {'\'(-inf-2.1]\'','\'(2.1-3.2]\'','\'(3.2-4.3]\'','\'(4.3-5.4]\'','\'(5.4-6.5]\'','\'(6.5-7.6]\'','\'(7.6-8.7]\'','\'(8.7-9.8]\'','\'(9.8-10.9]\'','\'(10.9-inf)\''}
+@attribute satisfaction {low,medium,high}
+@attribute education {high_school,bachelors,masters,phd}
+@attribute age {'\'(-inf-24.6]\'','\'(24.6-27.2]\'','\'(27.2-29.8]\'','\'(29.8-32.4]\'','\'(32.4-35]\'','\'(35-37.6]\'','\'(37.6-40.2]\'','\'(40.2-42.8]\'','\'(42.8-45.4]\'','\'(45.4-inf)\''}
+@attribute department {sales,marketing,finance,engineering,HR}
+@attribute salary {'\'(-inf-32600]\'','\'(32600-37200]\'','\'(37200-41800]\'','\'(41800-46400]\'','\'(46400-51000]\'','\'(51000-55600]\'','\'(55600-60200]\'','\'(60200-64800]\'','\'(64800-69400]\'','\'(69400-inf)\''}
+@attribute bonus {yes,no}
+
+@data
+poor,'\'(-inf-2.1]\'',low,high_school,'\'(24.6-27.2]\'',sales,'\'(-inf-32600]\'',yes
+satisfactory,'\'(4.3-5.4]\'',medium,bachelors,'\'(29.8-32.4]\'',marketing,'\'(37200-41800]\'',no
+good,'\'(7.6-8.7]\'',high,masters,'\'(32.4-35]\'',finance,'\'(46400-51000]\'',yes
+excellent,'\'(9.8-10.9]\'',high,phd,'\'(37.6-40.2]\'',engineering,'\'(55600-60200]\'',yes
+satisfactory,'\'(3.2-4.3]\'',low,bachelors,'\'(27.2-29.8]\'',HR,'\'(32600-37200]\'',no
+excellent,'\'(10.9-inf)\'',high,masters,'\'(42.8-45.4]\'',engineering,'\'(69400-inf)\'',yes
+poor,'\'(-inf-2.1]\'',low,high_school,'\'(-inf-24.6]\'',sales,'\'(-inf-32600]\'',no
+good,'\'(6.5-7.6]\'',medium,bachelors,'\'(29.8-32.4]\'',marketing,'\'(41800-46400]\'',yes
+satisfactory,'\'(5.4-6.5]\'',high,masters,'\'(37.6-40.2]\'',finance,'\'(51000-55600]\'',no
+good,'\'(8.7-9.8]\'',medium,bachelors,'\'(32.4-35]\'',engineering,'\'(64800-69400]\'',yes
+poor,'\'(2.1-3.2]\'',low,high_school,'\'(24.6-27.2]\'',HR,'\'(-inf-32600]\'',no
+excellent,'\'(10.9-inf)\'',high,phd,'\'(40.2-42.8]\'',engineering,'\'(64800-69400]\'',yes
+satisfactory,'\'(4.3-5.4]\'',medium,masters,'\'(29.8-32.4]\'',finance,'\'(41800-46400]\'',no
+good,'\'(7.6-8.7]\'',high,bachelors,'\'(32.4-35]\'',marketing,'\'(46400-51000]\'',yes
+poor,'\'(-inf-2.1]\'',low,high_school,'\'(24.6-27.2]\'',sales,'\'(-inf-32600]\'',no
+excellent,'\'(10.9-inf)\'',high,masters,'\'(45.4-inf)\'',engineering,'\'(69400-inf)\'',yes
+satisfactory,'\'(3.2-4.3]\'',medium,bachelors,'\'(27.2-29.8]\'',HR,'\'(37200-41800]\'',no
+good,'\'(7.6-8.7]\'',high,masters,'\'(35-37.6]\'',finance,'\'(46400-51000]\'',yes
+satisfactory,'\'(5.4-6.5]\'',medium,masters,'\'(37.6-40.2]\'',engineering,'\'(55600-60200]\'',yes
+excellent,'\'(9.8-10.9]\'',high,phd,'\'(40.2-42.8]\'',marketing,'\'(46400-51000]\'',yes
+satisfactory,'\'(2.1-3.2]\'',low,bachelors,'\'(24.6-27.2]\'',HR,'\'(32600-37200]\'',no
+poor,'\'(-inf-2.1]\'',low,high_school,'\'(-inf-24.6]\'',sales,'\'(-inf-32600]\'',no
+good,'\'(6.5-7.6]\'',medium,masters,'\'(35-37.6]\'',finance,'\'(51000-55600]\'',yes
+satisfactory,'\'(4.3-5.4]\'',medium,bachelors,'\'(29.8-32.4]\'',engineering,'\'(55600-60200]\'',yes
+excellent,'\'(8.7-9.8]\'',high,phd,'\'(42.8-45.4]\'',engineering,'\'(69400-inf)\'',yes
+good,'\'(7.6-8.7]\'',high,masters,'\'(32.4-35]\'',marketing,'\'(46400-51000]\'',yes
+satisfactory,'\'(5.4-6.5]\'',medium,masters,'\'(37.6-40.2]\'',HR,'\'(32600-37200]\'',no
+poor,'\'(-inf-2.1]\'',low,high_school,'\'(-inf-24.6]\'',sales,'\'(-inf-32600]\'',no
+excellent,'\'(10.9-inf)\'',high,masters,'\'(45.4-inf)\'',engineering,'\'(69400-inf)\'',yes
+good,'\'(6.5-7.6]\'',medium,bachelors,'\'(29.8-32.4]\'',finance,'\'(51000-55600]\'',yes
+satisfactory,'\'(3.2-4.3]\'',low,masters,'\'(24.6-27.2]\'',HR,'\'(32600-37200]\'',no
+poor,'\'(2.1-3.2]\'',low,high_school,'\'(27.2-29.8]\'',sales,'\'(-inf-32600]\'',no
+good,'\'(8.7-9.8]\'',high,masters,'\'(35-37.6]\'',marketing,'\'(46400-51000]\'',yes
+excellent,'\'(10.9-inf)\'',high,phd,'\'(42.8-45.4]\'',engineering,'\'(69400-inf)\'',yes
+satisfactory,'\'(4.3-5.4]\'',medium,bachelors,'\'(29.8-32.4]\'',HR,'\'(37200-41800]\'',no
+good,'\'(7.6-8.7]\'',high,masters,'\'(35-37.6]\'',finance,'\'(51000-55600]\'',yes
+excellent,'\'(9.8-10.9]\'',high,masters,'\'(45.4-inf)\'',engineering,'\'(64800-69400]\'',yes
+satisfactory,'\'(5.4-6.5]\'',medium,bachelors,'\'(32.4-35]\'',sales,'\'(-inf-32600]\'',no

@@ -1,0 +1,20 @@
+@relation Employee_Bonus-weka.filters.unsupervised.attribute.Discretize-B10-M-1.0-Rfirst-last-precision6
+
+@attribute performance {poor,satisfactory,good,excellent}
+@attribute experience {'\'(-inf-2]\'','\'(2-3]\'','\'(3-4]\'','\'(4-5]\'','\'(5-6]\'','\'(6-7]\'','\'(7-8]\'','\'(8-9]\'','\'(9-10]\'','\'(10-inf)\''}
+@attribute satisfaction {low,medium,high}
+@attribute education {high_school,bachelors,masters,phd}
+@attribute age {'\'(-inf-25.1]\'','\'(25.1-27.2]\'','\'(27.2-29.3]\'','\'(29.3-31.4]\'','\'(31.4-33.5]\'','\'(33.5-35.6]\'','\'(35.6-37.7]\'','\'(37.7-39.8]\'','\'(39.8-41.9]\'','\'(41.9-inf)\''}
+@attribute department {sales,marketing,finance,engineering,HR}
+@attribute salary {'\'(-inf-33100]\'','\'(33100-37200]\'','\'(37200-41300]\'','\'(41300-45400]\'','\'(45400-49500]\'','\'(49500-53600]\'','\'(53600-57700]\'','\'(57700-61800]\'','\'(61800-65900]\'','\'(65900-inf)\''}
+@attribute bonus {yes,no}
+
+@data
+poor,'\'(-inf-2]\'',low,high_school,'\'(-inf-25.1]\'',HR,'\'(-inf-33100]\'',no
+good,'\'(5-6]\'',medium,masters,'\'(33.5-35.6]\'',finance,'\'(49500-53600]\'',yes
+satisfactory,'\'(3-4]\'',medium,bachelors,'\'(27.2-29.3]\'',HR,'\'(33100-37200]\'',no
+excellent,'\'(9-10]\'',high,masters,'\'(41.9-inf)\'',engineering,'\'(65900-inf)\'',yes
+poor,'\'(-inf-2]\'',low,high_school,'\'(25.1-27.2]\'',sales,'\'(-inf-33100]\'',no
+good,'\'(7-8]\'',medium,bachelors,'\'(29.3-31.4]\'',marketing,'\'(45400-49500]\'',yes
+satisfactory,'\'(4-5]\'',high,masters,'\'(35.6-37.7]\'',finance,'\'(49500-53600]\'',no
+excellent,'\'(10-inf)\'',high,phd,'\'(41.9-inf)\'',engineering,'\'(65900-inf)\'',yes
