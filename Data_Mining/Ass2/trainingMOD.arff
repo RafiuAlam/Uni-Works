@@ -1,0 +1,29 @@
+@relation 'Student_Performance-weka.filters.unsupervised.attribute.ReplaceMissingWithUserConstant-A3-R52.6-Fyyyy-MM-dd\'T\'HH:mm:ss-weka.filters.unsupervised.attribute.NumericTransform-R3-Cjava.lang.Math-Mfloor'
+
+@attribute age numeric
+@attribute gender {male,female}
+@attribute exam_score numeric
+@attribute part_time_job {yes,no}
+@attribute class_performance {poor,average,excellent}
+
+@data
+21,male,65,yes,poor
+25,female,60,no,poor
+21,female,63,no,poor
+26,female,55,no,poor
+21,female,58,no,poor
+23,male,50,yes,poor
+24,female,59,no,poor
+20,male,57,yes,poor
+22,male,56,no,poor
+19,female,61,no,poor
+19,female,72,yes,average
+20,female,52,no,average
+?,female,68,yes,average
+24,male,70,no,average
+22,female,73,no,average
+23,male,52,yes,average
+22,female,79,no,excellent
+19,male,90,yes,excellent
+20,female,82,no,excellent
+24,male,77,yes,excellent

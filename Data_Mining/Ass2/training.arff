@@ -1,0 +1,31 @@
+@relation Student_Performance
+
+@attribute age numeric
+@attribute gender {male, female}
+@attribute exam_score numeric
+@attribute part_time_job {yes, no}
+@attribute class_performance {poor, average, excellent}
+
+@data
+21, male, 65.5, yes, poor
+25, female, 60.8, no, poor
+21, female, 63.2, no, poor
+26, female, 55.4, no, poor
+21, female, 58.5, no, poor
+23, male, 50.0, yes, poor
+24, female, 59.0, no, poor
+20, male, 57.3, yes, poor
+22, male, 56.1, no, poor
+19, female, 61.2, no, poor
+19, female, 72.3, yes, average
+20, female, ?, no, average
+?, female, 68.7, yes, average
+24, male, 70.9, no, average
+22, female, 73.9, no, average
+23, male, ?, yes, average
+22, female, 79.8, no, excellent
+19, male, 90.0, yes, excellent
+20, female, 82.7, no, excellent
+24, male, 77.3, yes, excellent
+
+
