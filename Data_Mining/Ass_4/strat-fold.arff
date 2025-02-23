@@ -1,0 +1,21 @@
+@relation pima_diabetes-weka.filters.unsupervised.instance.RemoveFolds-S0-N10-F1-weka.filters.supervised.instance.StratifiedRemoveFolds-S0-N10-F1
+
+@attribute preg numeric
+@attribute plas numeric
+@attribute pres numeric
+@attribute skin numeric
+@attribute insu numeric
+@attribute mass numeric
+@attribute pedi numeric
+@attribute age numeric
+@attribute class {tested_negative,tested_positive}
+
+@data
+6,148,72,35,0,33.6,0.627,50,tested_positive
+0,118,84,47,230,45.8,0.551,31,tested_positive
+2,90,68,42,0,38.2,0.503,27,tested_positive
+2,100,66,20,90,32.9,0.867,28,tested_positive
+3,180,64,25,70,34,0.271,26,tested_negative
+1,103,80,11,82,19.4,0.491,22,tested_negative
+2,84,0,0,0,0,0.304,21,tested_negative
+5,109,75,26,0,36,0.546,60,tested_negative
