@@ -1,0 +1,42 @@
+@relation salary
+
+@attribute Age numeric
+@attribute Income numeric
+@attribute Score numeric
+@attribute Experience numeric
+@attribute Gender {Male, Female, Other}
+@attribute Department {Sales, Engineering, Marketing}
+@attribute Location {Urban, Suburban, Rural}
+@attribute Class {High, Medium, Low}
+
+@data
+34, 54000, 75, 10, Male, Sales, Urban, Medium
+28, 62000, 88, 5, Female, Engineering, Suburban, High
+45, 78000, 52, 20, Male, Marketing, Rural, Low
+50, 85000, 60, 25, Female, Sales, Urban, Medium
+23, 32000, 70, 2, Other, Engineering, Urban, High
+36, 48000, 82, 12, Male, Marketing, Suburban, Medium
+29, 74000, 67, 7, Female, Sales, Rural, Low
+40, 96000, 90, 18, Other, Engineering, Urban, High
+55, 87000, 77, 30, Male, Marketing, Suburban, Medium
+32, 45000, 62, 8, Female, Sales, Rural, Low
+38, 66000, 85, 15, Male, Engineering, Urban, High
+47, 92000, 73, 22, Other, Marketing, Suburban, Medium
+22, 31000, 58, 1, Female, Sales, Rural, Low
+42, 79000, 80, 17, Male, Engineering, Urban, High
+30, 57000, 65, 6, Other, Engineering, Suburban, Medium
+48, 83000, 77, 23, Male, Marketing, Rural, Low
+35, 71000, 84, 11, Female, Sales, Urban, High
+31, 52000, 76, 4, Male, Engineering, Suburban, Medium
+27, 40000, 68, 3, Other, Marketing, Rural, Low
+49, 88000, 79, 24, Female, Sales, Urban, High
+37, 60000, 72, 13, Male, Engineering, Suburban, Medium
+26, 55000, 83, 2, Female, Marketing, Rural, High
+41, 85000, 66, 19, Other, Sales, Urban, Low
+39, 90000, 74, 16, Male, Engineering, Suburban, Medium
+33, 68000, 81, 9, Female, Marketing, Rural, High
+29, 75000, 64, 7, Other, Sales, Urban, Low
+43, 82000, 78, 21, Male, Engineering, Suburban, Medium
+25, 47000, 89, 4, Female, Marketing, Rural, High
+44, 86000, 61, 22, Other, Sales, Urban, Low
+46, 91000, 87, 20, Male, Engineering, Suburban, Medium
